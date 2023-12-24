@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",function(){setTimeout(function(){for(var e=document.getElementsByTagName("a"),n=0;n<e.length;n++)e[n].addEventListener("click",function(e){e.preventDefault()})},1e4)});
+document.addEventListener("DOMContentLoaded", ()=>{let active=false;if(active)setTimeout(()=>{var links=document.getElementsByTagName("a");for(var i=0;i<links.length;i++){links[i].addEventListener("click",function(event){event.preventDefault();})}},10000);});
